@@ -1,0 +1,97 @@
+.footer{
+    background-color: #E8EDE9;
+    padding-bottom: 40px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.footer-content > .left-pan{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-right: 3px solid #0983FF;
+}
+.footer-content > .left-pan > img{
+    width: auto;
+    height: 70%;
+}
+.footer-content > .left-pan > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2B2945;
+    text-align: left;
+    width: 60%;
+}
+.footer-content > .right-pan{
+    text-align: right;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.right-pan > .social-icons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.right-pan > .social-icons > img{
+    padding-left: 10px;
+}
+.right-pan > .emails{
+    display: flex;
+    align-items: center;
+}
+.footer-note{
+    text-align: center;
+}
+
+@media screen and (max-width: 999px){
+    .footer{
+        background-color: #fff;
+        padding-top: 150px;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 0;
+    }
+    .footer-content > .left-pan{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-right: none;
+    }
+    .footer-content > .left-pan > img{
+        width: auto;
+        height: 70%;
+    }
+    .footer-content > .left-pan > p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #2B2945;
+        text-align: center;
+        width: 80%;
+        margin-top: 40px;
+    }
+    .footer-content > .right-pan{
+        text-align: right;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-pan > .emails{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}

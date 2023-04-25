@@ -1,0 +1,198 @@
+.hotels{
+    background-color: #E8EDE9;
+    /* margin-top: -20px; */
+    padding: 90px 0;
+    position: relative;
+}
+.hotels-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hotels-text{
+    padding-right: 40px;
+    flex: 1;
+}
+.hotels-text > h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 123%;
+    color: #2B2945;
+    width: 100%;
+}
+.hotels-text > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #2B2945;
+}
+.hotels-right-pan{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.hotels-right-pan > img{
+    height: auto;
+    width: 70%;
+}
+
+.board-cta{
+    background-color: #0983FF;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: -195px;
+    border-radius: 30px;
+}
+.board-cta-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+.board-cta-content > h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 72px;
+    color: #fff;
+    margin: 0;
+}
+.board-cta-content > small {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #fff;
+}
+.board-cta-content > form{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+}
+.board-cta-input{
+    padding: 12px 24px;
+    flex: 1;
+    width: 250px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.board-cta-button{
+    border: 2px solid #fff;
+    padding: 12px 24px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 999px){
+    .hotels{
+        padding-bottom: 0px;
+    }
+    .hotels-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hotels-text{
+        padding-right: 0px;
+        flex: 1;
+    }
+    .hotels-text > h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 123%;
+        color: #2B2945;
+        width: 100%;
+        text-align: center;
+    }
+    .hotels-text > p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #2B2945;
+        text-align: center;
+    }
+    .hotels-right-pan{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    .hotels-right-pan > img{
+        height: auto;
+        width: 100%;
+    }
+    .board-cta{
+        background-color: #0983FF;
+        position: relative;
+        width: 80%;
+        left: 10%;
+        bottom: -100px;
+        border-radius: 30px;
+    }
+    .board-cta-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px 0;
+    }
+    .board-cta-content > h3{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        color: #fff;
+        margin: 0;
+    }
+    .board-cta-content > small {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .board-cta-content > form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0;
+    }
+    .board-cta-input{
+        padding: 12px 24px;
+        flex: 1;
+        width: 100%;
+        margin-right: 0px;
+        border: none;
+        border-radius: 10px;
+    }
+    .board-cta-button{
+        border: 2px solid #fff;
+        padding: 12px 24px;
+        border-radius: 10px;
+        background-color: transparent;
+        color: #fff;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+}

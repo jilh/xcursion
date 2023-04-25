@@ -1,0 +1,100 @@
+.header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/images/header-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-overlay{
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(60deg, #000000 -14.81%, rgba(0, 0, 0, 0) 85.19%);
+    display: flex;
+    align-items: flex-end;
+}
+.header-content{
+    margin-bottom: 50px;
+}
+.header-content > h1{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #fff;
+    margin: 0;
+    width: 80%;
+}
+.header-content > p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 35%;
+    color: #fff;
+    padding: 20px 0;
+}
+.form-wrapper{
+    width: 35%;
+}
+.form-wrapper > small{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+.form-wrapper > form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+form > .header-input{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 1;
+    margin-right: 10px;
+}
+form > .header-button{
+    background-color: #0983FF;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 999px){
+    .header-content{
+        text-align: center;
+    }
+    .header-content > h1 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        color: #fff;
+        margin: 0;
+        width: 100%;
+    }
+    .header-content > p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        width: 100%;
+        color: #fff;
+        padding: 20px 0;
+    }
+    .form-wrapper{
+        width: 100%;
+    }
+    .form-wrapper > small{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        color: #fff;
+    }
+}
